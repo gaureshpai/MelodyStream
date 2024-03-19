@@ -1,5 +1,6 @@
 import numpy as np
 from bokeh.plotting import figure, output_file, show 
+
 # Scatter Plot
 x = np.random.random(50) * 10
 y = np.random.random(50) * 200

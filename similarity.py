@@ -1,5 +1,5 @@
-str1 = input("Enter string 1\n")
-str2 = input("Enter string 2\n")
+str1 = input("Enter string 1:")
+str2 = input("Enter string 2:")
 
 if len(str2)<len(str1):
     short = len(str2)

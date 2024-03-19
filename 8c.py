@@ -1,5 +1,6 @@
 import numpy as np
 from bokeh.plotting import figure, output_file, show
+
 # Simple Bar Plot
 x = np.arange(0, 5, 1)
 y = np.random.random(5) * 200

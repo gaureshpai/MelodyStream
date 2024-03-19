@@ -15,8 +15,9 @@ data = {
 }
 
 df_tips = pd.DataFrame(data)
+
 # Distribution Plot
-sns.distplot(df_iris['sepal_length'])
+sns.histplot(df_iris['sepal_length'])
 plt.show()
 
 # Joint Plot
@@ -43,6 +44,7 @@ plt.show()
 sns.swarmplot(x='day', y='total_bill', data=df_tips, hue='sex')
 plt.show()
 corr_matrix = df_tips.corr()
+
 # Heatmap
 plt.figure(figsize=(8, 6))
 sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
