@@ -1,9 +1,9 @@
 import React from 'react'
 
-const loop = () => {
+const Loop = () => {
   return (
     <div>loop</div>
   )
 }
 
-export default loop
+export default Loop
