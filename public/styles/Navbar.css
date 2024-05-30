@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-color: rgb(0, 0, 0);
+    --background-start-color: #f3f4f6;
+    --background-end-color: #ffffff;
+    --primary-color: #4f46e5;
+    --hover-color: #6b63ff;
+    --title-hover-color: #f3f87a;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-color: rgb(255, 255, 255);
+        --background-start-color: #111827;
+        --background-end-color: #1f2937;
+        --primary-color: #7c3aed;
+        --hover-color: #9561e2;
+        --title-hover-color: #f3f87a;
+    }
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, var(--background-start-color), var(--background-end-color));
+    color: var(--foreground-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo-container:hover {
+    opacity: 0.8;
+    color: var(--title-hover-color);
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo img {
+    margin-right: 0.5rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buttons {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: var(--primary-color);
+    transition: background-color 0.3s ease;
+}
+
+.buttons:hover {
+    background-color: var(--hover-color);
+    color: var(--title-hover-color);
+}
+
+.title{
+    color: white;
+    text-decoration: none;
+}
