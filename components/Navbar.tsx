@@ -15,7 +15,7 @@ const Navbar = () => {
               width={50}
               height={50}
             />
-            <span className='title'>MediaPlayer</span>
+            <div className='title'>MediaPlayer</div>
           </a>
         </Link>
       </div>
@@ -28,6 +28,9 @@ const Navbar = () => {
         </a>
         <a href="https://www.linkedin.com/in/gaureshpai/" target="_blank" rel="noopener noreferrer" className="buttons">
           LinkedIn
+        </a>
+        <a href="https://www.twitter.com/hseruag/" target="_blank" rel="noopener noreferrer" className="buttons">
+          Twitter
         </a>
       </div>
     </nav>

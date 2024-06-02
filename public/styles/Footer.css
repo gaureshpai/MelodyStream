@@ -1,3 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-color: rgb(0, 0, 0);
+    --background-start-color: #ffffff;
+    --background-end-color: #f3f4f6;
+    --primary-color: #ff5722;
+    --hover-color: #e64a19;
+    --title-hover-color: #4caf50;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-color: rgb(255, 255, 255);
+        --background-start-color: #111827;
+        --background-end-color: #1f2937;
+        --primary-color: #ff8a65;
+        --hover-color: #bf360c;
+        --title-hover-color: #81c784; 
+    }
+}
+
 .footer {
   background: #333;
   color: #fff;
