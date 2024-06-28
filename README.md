@@ -18,7 +18,7 @@ MelodyStream allows you to select and loop specific parts of songs, enabling you
 📄 **Usage**
 1. **Clone the repository:**
    ```
-   git clone https://github.com/your-username/melodystream.git
+   git clone https://github.com/gaureshpai/melodystream.git
    ```
 2. **Install dependencies:**
    ```
