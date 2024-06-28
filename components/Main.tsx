@@ -1,19 +1,18 @@
 import React from 'react';
-import Loop from './loop';
-import MusicStore from './MusicStore';
-import PlaySearch from './playSearch';
+import Player from '../components/Player';
+import Playlist from '../components/Playlist';
+import { AudioProvider } from '@/content/AudioContext';
+import '@/public/styles/globals.css';
 
-const Main = () => {
+const Home = () => {
     return (
-        <div>
-
-            <main>
-                <Loop />
-                <MusicStore />
-                <PlaySearch />
-            </main>
-        </div>
+        <AudioProvider>
+            <div className="app-container">
+                <Player />
+                <Playlist />
+            </div>
+        </AudioProvider>
     );
 };
 
-export default Main;
+export default Home;

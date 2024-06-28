@@ -20,18 +20,18 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="button-container">
-        <a href="https://gauresh.vercel.app" target="_blank" rel="noopener noreferrer" className="buttons">
+        <Link href="https://gauresh.vercel.app" target="_blank" rel="noopener noreferrer" className="buttons">
           Portfolio
-        </a>
-        <a href="https://github.com/gaureshpai" target="_blank" rel="noopener noreferrer" className="buttons">
+        </Link>
+        <Link href="https://github.com/gaureshpai" target="_blank" rel="noopener noreferrer" className="buttons">
           GitHub
-        </a>
-        <a href="https://www.linkedin.com/in/gaureshpai/" target="_blank" rel="noopener noreferrer" className="buttons">
+        </Link>
+        <Link href="https://www.linkedin.com/in/gaureshpai/" target="_blank" rel="noopener noreferrer" className="buttons">
           LinkedIn
-        </a>
-        <a href="https://www.twitter.com/hseruag/" target="_blank" rel="noopener noreferrer" className="buttons">
+        </Link>
+        <Link href="https://www.twitter.com/hseruag/" target="_blank" rel="noopener noreferrer" className="buttons">
           Twitter
-        </a>
+        </Link>
       </div>
     </nav>
   );
