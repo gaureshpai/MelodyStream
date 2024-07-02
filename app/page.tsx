@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from "@/components/Navbar";
+import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Main from '@/components/Main';
 
 const page = () => {
   return (
     <div>
-      <Navbar />
+      <Header />
       <Main/>
       <Footer />
     </div>
