@@ -7,6 +7,8 @@ MelodyStream allows you to select and loop specific parts of songs, enabling you
 
 🎧 **Features**
 - **Player:** Control your music playback with ease.
+- **Playlist:** Organize and manage your favorite tracks.
+- **Looping:** Seamlessly loop parts of songs for practice or enjoyment.
 
 🚀 **Technologies Used**
 - React.js: Frontend library for building user interfaces.
@@ -28,7 +30,8 @@ MelodyStream allows you to select and loop specific parts of songs, enabling you
    npm run dev
    ```
 4. **Explore and Customize:**
-   - Play 3 tracks. 
-   - The playing track will be shown in the now playing window
+   - Update playlists and tracks in the Playlist component.
+   - Customize player controls and styling in the Player component.
+   - Enhance features or add new functionalities as per your requirements.
 
 Start streaming and enjoying music with MelodyStream today! 🎶

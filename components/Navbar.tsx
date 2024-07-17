@@ -15,7 +15,7 @@ const Navbar = () => {
               width={50}
               height={50}
             />
-            <div className='title'>MediaPlayer</div>
+            <div className='title'>MelodyStream</div>
           </a>
         </Link>
       </div>
