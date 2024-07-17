@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.19",
+    "axios": "^1.7.2",
+    "fs": "^0.0.1-security",
     "next": "14.2.3",
+    "path": "^0.12.7",
     "postcss": "^8.4.38",
     "react": "^18",
     "react-dom": "^18",
