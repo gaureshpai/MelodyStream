@@ -18,7 +18,7 @@
         --background-end-color: #1f2937;
         --primary-color: #ff8a65;
         --hover-color: #bf360c;
-        --title-hover-color: #81c784; 
+        --title-hover-color: #81c784;
     }
 }
 
@@ -41,6 +41,7 @@ button:focus {
     color: white;
     padding: 1rem;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -91,7 +92,51 @@ button:focus {
     color: var(--title-hover-color);
 }
 
-.title{
+.title {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+        .navbar {
+            padding: 0.5rem;
+        }
+
+        .logo-container {
+            font-size: 1.2rem;
+        }
+
+        .buttons {
+            padding: 0.1rem;
+        }
+
+        .navbar {
+            flex-direction: column;
+        }
+
+        .button-container {
+            flex-direction: row;
+        }
+    }
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .logo-container {
+        font-size: 1.2rem;
+    }
+
+    .buttons {
+        padding: 0.1rem;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+
+    .button-container{
+        flex-direction: row;
+    }
 }

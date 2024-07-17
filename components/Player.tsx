@@ -1,4 +1,5 @@
 'use client'
+
 import React from 'react';
 import { useAudio } from '@/content/AudioContext'
 
@@ -12,7 +13,7 @@ const Player = () => {
             </div>
             <div className="controls">
                 <button
-                    className="play-button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    className="play-button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md focus:outline-none"
                     onClick={() => (isPlaying ? pauseTrack() : playTrack(currentTrack))}
                 >
                     {isPlaying ? 'Pause' : 'Play'}

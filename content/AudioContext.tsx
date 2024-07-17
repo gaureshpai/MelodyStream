@@ -1,4 +1,5 @@
 'use client'
+
 import React, { createContext, useState, useContext, useRef } from 'react';
 
 interface AudioContextProps {
