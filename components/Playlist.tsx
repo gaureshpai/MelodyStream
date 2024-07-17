@@ -1,11 +1,12 @@
 'use client'
+
 import React from 'react';
 import Track from './Track';
 
 const tracks = [
-    'track1.mp3',
-    'track2.mp3',
-    'track3.mp3',
+    'music/track1.mp3',
+    'music/track2.mp3',
+    'music/track3.mp3',
 ];
 
 const Playlist = () => {
