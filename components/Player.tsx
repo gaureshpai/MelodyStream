@@ -6,10 +6,16 @@ import { useAudio } from '@/content/AudioContext'
 const Player = () => {
     const { isPlaying, playTrack, pauseTrack, currentTrack } = useAudio();
 
+    const cleanTrackName = (track: string) => {
+        const parts = track.split('/');
+        const fileName = parts[parts.length - 1];
+        return fileName.replace('.mp3', '');
+    };
+
     return (
         <div className="player-container bg-gray-800 text-white p-4 flex items-center justify-between">
             <div className="track-info">
-                <p>Current Track: {currentTrack}</p>
+                <p>Current Track: {cleanTrackName(currentTrack)}</p>
             </div>
             <div className="controls">
                 <button
