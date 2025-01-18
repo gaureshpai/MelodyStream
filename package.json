@@ -12,9 +12,9 @@
     "autoprefixer": "^10.4.20",
     "axios": "^1.7.9",
     "fs": "^0.0.1-security",
-    "next": "15.1.2",
+    "next": "15.1.5",
     "path": "^0.12.7",
-    "postcss": "^8.4.49",
+    "postcss": "^8.5.1",
     "react": "^19",
     "react-dom": "^19",
     "tailwindcss": "^3.4.17"
