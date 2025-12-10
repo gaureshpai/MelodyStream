@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.20",
+    "autoprefixer": "^10.4.22",
     "axios": "^1.7.9",
     "fs": "^0.0.1-security",
     "next": "^15.5.7",
